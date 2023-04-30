@@ -10,6 +10,7 @@ The Simple Form project is a web application that allows users to submit a form 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
+- [Running with Tomcat](#running-with-tomcat)
 - [License](#license)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -19,6 +20,26 @@ The Simple Form project is a web application that allows users to submit a form 
 To run this project locally, follow these steps:
 
 1. Ensure you have Eclipse IDE for Java and a MySQL server installed on your system.
+  
+  - Create a new project in Eclipse: Open Eclipse IDE and create a new Java project by going to File -> New -> Java Project. Give your project a suitable name.
+
+  - Copy the Java code: Create a new package within your project by right-clicking on the project folder, selecting New -> Package, and providing a package name (e.g.,     p1). Inside the package, create a new Java class file (e.g., Form.java) and copy the Java code you provided into that file.
+
+  - Copy the HTML code: Create a new HTML file (e.g., index.html) by right-clicking on the project folder, selecting New -> File, and providing the file name. Copy the     HTML code you provided into that file.
+
+  - Set up MySQL Connector/J library: Download the MySQL Connector/J JAR file from the official MySQL website (https://dev.mysql.com/downloads/connector/j/). Save the    JAR file to a location on your computer.
+
+  - Add the MySQL Connector/J library to the project: In Eclipse, right-click on your project, select Build Path -> Configure Build Path. In the dialog that opens, go     to the Libraries tab and click on the Add External JARs button. Browse to the location where you saved the MySQL Connector/J JAR file, select it, and click Open to     add it to your project's classpath.
+
+  - Configure project settings: Right-click on your project, select Properties, and go to the Java Build Path section. Make sure the MySQL Connector/J JAR file is         listed under the Libraries tab.
+
+  - Run the project: Right-click on the Form.java file, select Run As -> Java Application. This will compile and execute the Java code, launching the embedded Tomcat       server and making the web application accessible at http://localhost:8080.
+
+  - Remember to set up the MySQL database as described in the previous instructions and update the database connection parameters in the Form.java file if necessary.
+
+  - Additionally, make sure you have the necessary MySQL server installed and running on your local machine before running the project.
+
+  - Once you have completed these steps, you should be able to run the project and access the form through a web browser.
 
 2. Clone or download this repository to your local machine.
 
@@ -37,7 +58,16 @@ To run this project locally, follow these steps:
    - Right-click on the project in Eclipse and select `Build Path -> Configure Build Path`.
    - Go to the `Libraries` tab and ensure that the MySQL Connector/J JAR file is included.
 
-6. Run the project:
+6. Start the Apache Tomcat server:
+   - Make sure the Tomcat server is properly installed and configured on your machine.
+   - Start the Tomcat server by running the appropriate startup script or using the server's administration console.
+
+7. Deploy the project to Tomcat:
+   - Right-click on the project in Eclipse and select `Run As -> Run on Server`.
+   - Choose the configured Tomcat server and click `Finish`.
+   - Eclipse will deploy the project to the Tomcat server.
+
+8. Run the project:
    - Right-click on the `Form.java` file and select `Run As -> Run on server`.
    - This will compile and execute the Java code, launching the embedded Tomcat server.
    - The web application will be accessible at `http://localhost:8080`.
@@ -86,5 +116,5 @@ Please ensure that your code adheres to the existing coding standards and conven
 
 ## Contact
 
-If you have any questions, suggestions, or would like to report a bug, please feel free to contact [Manikandaraj] via [manikandarajnataraj@gmail.com].
+If you have any questions, suggestions, or would like to report a bug, please feel free to contact Manikandaraj via [manikandarajnataraj@gmail.com].
 
