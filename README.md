@@ -1,6 +1,5 @@
 # Simple Form Project
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Description
 
@@ -39,7 +38,7 @@ To run this project locally, follow these steps:
    - Go to the `Libraries` tab and ensure that the MySQL Connector/J JAR file is included.
 
 6. Run the project:
-   - Right-click on the `Form.java` file and select `Run As -> Java Application`.
+   - Right-click on the `Form.java` file and select `Run As -> Run on server`.
    - This will compile and execute the Java code, launching the embedded Tomcat server.
    - The web application will be accessible at `http://localhost:8080`.
 
@@ -61,10 +60,11 @@ To use the Simple Form project:
 - MySQL
 - HTML
 - Eclipse IDE
+- Apache Tomcat 9 or later version
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
 
 ## Contributing
 
@@ -86,5 +86,5 @@ Please ensure that your code adheres to the existing coding standards and conven
 
 ## Contact
 
-If you have any questions, suggestions, or would like to report a bug, please feel free to contact [your-name] via [email-address].
+If you have any questions, suggestions, or would like to report a bug, please feel free to contact [Manikandaraj] via [manikandarajnataraj@gmail.com].
 
