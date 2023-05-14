@@ -10,7 +10,6 @@ The Simple Form project is a web application that allows users to submit a form 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Running with Tomcat](#running-with-tomcat)
 - [License](#license)
 - [Contributing](#contributing)
 - [Contact](#contact)
